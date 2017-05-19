@@ -4,6 +4,7 @@
 <head>
   <!--Import Google Icon Font-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
   <!--Import materialize.css-->
   <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
@@ -14,17 +15,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<body class="">
 
-  <div class="container black">
 
+<body id="body">
+
+  <div id="contain" class="container">
     <div class="row">
       <div class="col s12">
         <nav>
-          <div class="nav-wrapper navbar-fixed red darken-4">
+          <div id='nav' class="nav-wrapper navbar-fixed red darken-4">
             <div class="container">
               <a class="brand-logo center">
-                <i class="material-icons">videocam</i>
+                <i class="material-icons">movie</i>
                 <h4 class="black-text text-darken-2">Random Movie Search</h4>
               </a>
             </div>
@@ -36,14 +38,14 @@
 
     <div class="row">
       <div class="col s3">
-        <div class="card  black">
+        <div id="back" class="card black">
           <div class="card-image">
             <img class="responsive-img" src="https://www.colourbox.com/preview/6808654-popcorn-with-clapper-board-and-movie-tickets-vintage-poster.jpg">
           </div>
-          <div class="card-content card-panel red darken-4">
+          <div id="cardssss" class="card-content card-panel red darken-4">
             <h5 class="movies center-align">Cinema</h5>
           </div>
-          <div class="card-action center-align red darken-4">
+          <div id="cards" class="card-action center-align red darken-4">
             <a href="https://drafthouse.com/">
               <i class="medium material-icons hoverable z-depth-5">theaters</i>
             </a>
@@ -51,16 +53,16 @@
         </div>
       </div>
 
-      <div class="col s6">
-        <div class="card black">
+      <div class="col s4 offset-s1">
+        <div id="maincard" class="card black">
           <div class="card-image">
             <img id="card" class="responsive-img" src="https://www.colourbox.com/preview/6808654-popcorn-with-clapper-board-and-movie-tickets-vintage-poster.jpg">
           </div>
 
           <div class="row">
             <div class="col s12 center-align">
-              <div class="info red darken-4">
-                <ul>
+              <div class="info black red-text text-darken-2">
+                <ul id="cardsssss">
                   <li id="poster"></li>
                   <li id="title"></li>
                   <li id="plot"></li>
@@ -80,14 +82,14 @@
 
       </div>
 
-      <div class="col s3">
-        <div class="card black">
+      <div class="col s3 offset-s1">
+        <div id="back2" class="card black">
           <div class="card-image">
             <img class="responsive-img" src="https://www.colourbox.com/preview/6808654-popcorn-with-clapper-board-and-movie-tickets-vintage-poster.jpg" </div>
-            <div class="card-content card-panel red darken-4">
-              <h5 class="review center-align">Movie Reviews</h5>
+            <div id="cardsss" class="card-content card-panel red darken-4">
+              <h5 class="review center-align"> Reviews</h5>
             </div>
-            <div class="card-action center-align red darken-4">
+            <div id="cardss" class="card-action center-align red darken-4">
               <a class="" href="https://www.rottentomatoes.com/">
                 <i class="medium material-icons hoverable z-depth-5">thumbs_up_down</i>
               </a>
@@ -98,6 +100,9 @@
 
       </div>
       <div class="row">
+
+
+
         <div class="col s12 center-align">
           <button id="button" class="btn waves-effect waves-light pulse red darken-4 black-text text-darken-2" type="submit" name="action">Are you feeling lucky punk?
           </button>
@@ -106,15 +111,33 @@
 
     </div>
 
-    <div class="row">
+
+    <!-- <div class="row">
       <div class="col s12 center-align">
-        <footer class="page-footer red darken-4">
-          <p> 2017 Copyright</p>
+        <footer id="foot" class="page-footer red darken-4">
+          <p> copyright 2017</p>
+
         </footer>
       </div>
+    </div> -->
+
+
+    <div>
+      <button id="easteregg" class="N/A transparent" type="submit" name="action">
+
+      </button>
     </div>
 
+
+
   </div>
+
+
+
+
+
+
+
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
