@@ -1,63 +1,63 @@
-            html {
-            font-family: 'Audiowide', cursive;
-          }
+                    html {
+                    font-family: 'Audiowide', cursive;
+                  }
 
-          body {
-            background-image: url("http://rialtocommunityplayers.com/wp-content/uploads/2014/03/theatre.jpg ");
-            background-attachment: fixed;
-            background-size: cover;
-            background-position: center;
-          }
+                  body {
+                    background-image: url("http://rialtocommunityplayers.com/wp-content/uploads/2014/03/theatre.jpg ");
+                    background-attachment: fixed;
+                    background-size: cover;
+                    background-position: center;
+                  }
 
-          .writing {
-            color: black;
-          }
+                  .writing {
+                    color: black;
+                  }
 
-          #card {
-            height: 450px;
-          }
+                  #card {
+                    height: 450px;
+                  }
 
-          .card1 {
-            height: 25px;
-            background: linear-gradient(to bottom right, pink, rgba(0, 0, 0, 0));
-          }
+                  .card1 {
+                    height: 25px;
+                    background: linear-gradient(to bottom right, pink, rgba(0, 0, 0, 0));
+                  }
 
-          .material-icons {
-            color: black;
-          }
+                  .material-icons {
+                    color: black;
+                  }
 
-          #easteregg {
-            border: none;
-            width: 70px;
-            height: 70px;
-            cursor: wait;
-          }
+                  #easteregg {
+                    border: none;
+                    width: 70px;
+                    height: 70px;
+                    cursor: wait;
+                  }
 
-          .unicorn {
-            background: linear-gradient(90deg, #ec5218, #1665c1, #b71c1c, #000000, #ffee58, #01579b, #4a148c, #e3f2fd, #69f0ae, #ffee58, #3e2723, #673ab7, #3e2723, #ff3d00, #ffebee, #64dd17, #01579b, #aa00ff, #ffc107, #ec5218, #1665c1, #b71c1c, #000000, #ffee58, #01579b, #4a148c, #e3f2fd, #69f0ae, #ffee58, #3e2723, #673ab7, #3e2723, #ff3d00, #ffebee, #64dd17, #01579b, #aa00ff, #ffc107, #ffee58, #01579b);
-            background-size: 400% 400%;
-            animation: BackgroundGradient 20s ease infinite;
-          }
+                  .unicorn {
+                    background: linear-gradient(145deg, #ec5218, #1665c1, #b71c1c, #000000, #ffee58, #01579b, #4a148c, #e3f2fd, #69f0ae, #ffee58, #3e2723, #673ab7, #3e2723, #ff3d00, #ffebee, #64dd17, #01579b, #aa00ff, #ffc107, #ec5218, #1665c1, #b71c1c, #000000, #ffee58, #01579b, #4a148c, #e3f2fd, #69f0ae, #ffee58, #3e2723, #673ab7, #3e2723, #ff3d00, #ffebee, #64dd17, #01579b, #aa00ff, #ffc107, #ffee58, #01579b);
+                    background-size: 400% 400%;
+                    animation: BackgroundGradient 10s ease infinite;
+                  }
 
-          .pony {
-            background: linear-gradient(145deg, #ffffff, #ffff00, #03a9f4, #4caf50, #d500f9, #e53935, #0d47a1);
-            background-size: 200% 200%;
-            animation: BackgroundGradient 4s ease infinite;
-          }
+                  .pony {
+                    background: linear-gradient(90deg, #ffffff, #ffff00, #03a9f4, #4caf50, #d500f9, #e53935, #0d47a1);
+                    background-size: 200% 200%;
+                    animation: BackgroundGradient 10s ease infinite;
+                  }
 
-          .rainbow {
-            background: linear-gradient(145deg, #ec5218, #1665c1, #b71c1c, #000000, #ffee58, #01579b, #4a148c, #e3f2fd, #69f0ae, #ffee58, #3e2723, #673ab7, #3e2723, #ff3d00, #ffebee, #64dd17, #01579b, #aa00ff, #ffc107, #ec5218, #1665c1, #b71c1c, #000000, #ffee58, #01579b, #4a148c, #e3f2fd, #69f0ae, #ffee58, #3e2723, #673ab7, #3e2723, #ff3d00, #ffebee, #64dd17);
-            background-size: 400% 400%;
-            animation: BackgroundGradient 15s ease infinite;
-          }
+                  .rainbow {
+                    background: linear-gradient(145deg, #ec5218, #1665c1, #b71c1c, #000000, #ffee58, #01579b, #4a148c, #e3f2fd, #69f0ae, #ffee58, #3e2723, #673ab7, #3e2723, #ff3d00, #ffebee, #64dd17, #01579b, #aa00ff, #ffc107, #ec5218, #1665c1, #b71c1c, #000000, #ffee58, #01579b, #4a148c, #e3f2fd, #69f0ae, #ffee58, #3e2723, #673ab7, #3e2723, #ff3d00, #ffebee, #64dd17);
+                    background-size: 400% 400%;
+                    animation: BackgroundGradient 10s ease infinite;
+                  }
 
-          @keyframes BackgroundGradient {
-            0% {
-              background-position: 0% 50%;
-            }
-            50% {
-              background-position: 100% 50%;
-            }
-            100% {
-              background-position
-            }
+                  @keyframes BackgroundGradient {
+                    0% {
+                      background-position: 0% 50%;
+                    }
+                    50% {
+                      background-position: 100% 50%;
+                    }
+                    100% {
+                      background-position
+                    }

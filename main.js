@@ -14,49 +14,49 @@ $(function() {
     console.log(randomMovie);
 
     let $xhr = $.getJSON('http://www.omdbapi.com/?t=' + randomMovie);
+    http: //www.omdbapi.com/?i=tt3896198&apikey=a405f963
 
 
 
+      $xhr.done(function(data) {
+        if ($xhr.status != 200) {
+          return;
 
-    $xhr.done(function(data) {
-      if ($xhr.status != 200) {
-        return;
-
-      }
-
-
-      $('#card').attr('src', data.Poster);
-
-      $('#title').html(data.Title);
-      $('#plot').html(data.Plot);
-      $('#actors').html(data.Actors);
-      $('#director').html(data.Director);
-      $('#released').html(data.Released);
-
-      console.log(data);
+        }
 
 
+        $('#card').attr('src', data.Poster);
 
-      $('#easteregg').click(function() {
-        $('#body').addClass('unicorn');
-        $('#contain').addClass(' pony');
-        $('#nav').addClass(' rainbow');
-        $('#foot').addClass(' rainbow');
-        $('#cards').addClass(' rainbow');
-        $('#cardss').addClass(' rainbow');
-        $('#cardsss').addClass(' rainbow');
-        $('#cardssss').addClass(' rainbow');
-        $('#button').addClass(' rainbow');
-        $('#cardsssss').addClass(' unicorn');
-        $('#images').addClass(' unicorn');
-        $('#corn').addClass(' unicorn');
-        $('#back').addClass('card1');
-        $('#back2').addClass('card1');
-        $('#maincard').addClass('card1');
-        $('#list').addClass('writing');
+        $('#title').html(data.Title);
+        $('#plot').html(data.Plot);
+        $('#actors').html(data.Actors);
+        $('#director').html(data.Director);
+        $('#released').html(data.Released);
+
+        console.log(data);
+
+
+
+        $('#easteregg').click(function() {
+          $('#body').addClass('unicorn');
+          $('#contain').addClass(' pony');
+          $('#nav').addClass(' rainbow');
+          $('#foot').addClass(' rainbow');
+          $('#cards').addClass(' rainbow');
+          $('#cardss').addClass(' rainbow');
+          $('#cardsss').addClass(' rainbow');
+          $('#cardssss').addClass(' rainbow');
+          $('#button').addClass(' unicorn');
+          $('#cardsssss').addClass(' pony');
+          $('#images').addClass(' unicorn');
+          $('#corn').addClass(' unicorn');
+          $('#back').addClass('card1');
+          $('#back2').addClass('card1');
+          $('#maincard').addClass('card1');
+          $('#list').addClass('writing');
+        });
+
       });
-
-    });
 
 
     $xhr.fail(function(err) {
